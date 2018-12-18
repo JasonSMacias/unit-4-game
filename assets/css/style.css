@@ -1,5 +1,5 @@
 body {
-  background-image: url ("../images/paisley.png");
+  background-image: url("../images/paisley.png");
 }
 
 .container {
@@ -11,6 +11,7 @@ body {
   background-color: black;
   
 }
+
 
 header {
   background-color: #170830;
