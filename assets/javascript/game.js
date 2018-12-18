@@ -44,12 +44,12 @@ function scoring() {
   if (inventory === buyerOffer) {
     wins++;
     winsHTM.text(wins);
-    // $('#myModal').modal(options);
+    $('#myModal').modal('toggle');
   }
   else {
     losses++;
     lossesHTM.text(losses);
-    // $('#myModal').modal(options);
+    $('#myModal').modal('toggle');
   }
 }
 
